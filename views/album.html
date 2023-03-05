@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soundband</title>
+  <link rel="icon" href="../assets/icon.png">
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/preloader.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="../styles/album.css">
+</head>
+
+<body>
+  <div class="preloader">
+    <img src="../assets/loading.svg" alt="loading">
+  </div>
+
+  <header class="header">
+    <h1>soundcamp</h1>
+    <div class="header-link" data-href="../index.html">Main</div>
+    <div class="profile">
+      <div data-href="../index.html">
+        <span class="profile-status">plus</span>
+      </div>
+      <img src="../assets/profile-picture.jpg" alt="profile picture" class="profile-picture">
+
+      <div class="dropdown-menu inactive">
+        <div class="user-info">
+          <div class="user-name">drunque</div>
+          <div class="user-status">Current subscriber</div>
+          <span class="user-status-brief">plus</span>
+        </div>
+
+        <hr class="hr">
+
+        <div class="options">
+          <div class="dropdown-menu-link" data-href="../index.html">Collection</div>
+          <div class="dropdown-menu-link" data-href="../index.html">Settings</div>
+          <div class="dropdown-menu-link" data-href="../index.html">
+            Log out
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="playlist-row">
+      
+    </div>
+
+    <div class="track-search-box">
+      <span class="material-icons icon">
+        search
+      </span>
+      <input class="track-search" type="text" placeholder="Track search">
+    </div>
+
+    <div class="track-list">
+      
+    </div>
+    <hr class="hr">
+  </main>
+
+  <footer class="footer">
+    <p class="footer-info">soundband may contain information that's unsuitable for minors</p>
+    <p class="credits"><span class="credit">©</span> 2023 soundband</p>
+  </footer>
+
+  <script src="../scripts/preloader.js"></script>
+  <script src="../scripts/anchors.js"></script>
+  <script type="module" src="../scripts/album-data.js"></script>
+  <script type="module" src="../scripts/album.js"></script>
+  <script type="module" src="../scripts/album-effects.js"></script>
+</body>
+
+</html>

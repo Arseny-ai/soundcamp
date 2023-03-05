@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soundcamp</title>
+  <link rel="icon" href="assets/icon.png">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/preloader.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+  <div class="preloader">
+    <img src="assets/loading.svg" alt="loading">
+  </div>
+
+  <header class="header">
+    <h1>soundcamp</h1>
+    <div class="header-link active" data-href="index.html">Main</div>
+    <div class="search-box">
+      <button class="search-button"><span class="material-symbols-outlined">search</span></button>
+      <input type="text" class="search">
+    </div>
+    <div class="profile">
+      <div data-href="index.html"><span class="profile-status">plus</span></div>
+      <img src="assets/profile-picture.jpg" alt="profile picture" class="profile-picture">
+      <div class="dropdown-menu inactive">
+        <div class="user-info">
+          <div class="user-name">drunque</div>
+          <div class="user-status">Current subscriber</div>
+          <span class="user-status-brief">plus</span>
+        </div>
+        <hr class="hr">
+        <div class="options">
+          <div class="dropdown-menu-link" data-href="index.html">Collection</div>
+          <div class="dropdown-menu-link" data-href="index.html">Settings</div>
+          <div class="dropdown-menu-link" data-href="index.html">Log out</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="main-row">
+      <h1 class="main-heading">Background music</h1>
+      <div class="container">
+        <button class="genre-station">
+          <span class="material-symbols-outlined">
+            arrow_drop_down_circle
+          </span>
+          Station with the genre
+        </button>
+        <button class="favorite-button">
+          <span class="material-symbols-outlined favorite">
+            favorite
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <hr class="hr">
+    <div class="playlists-container">
+      <div class="playlists-row">
+        <div data-href="index.html" class="heading">Popular playlists</div>
+        <div data-href="index.html" class="show-all">Show all
+          <span class="material-symbols-outlined arrow">
+            keyboard_arrow_right
+          </span>
+        </div>
+      </div>
+      <div class="playlists">
+
+      </div>
+    </div>
+    <hr class="hr">
+  </main>
+
+  <footer class="footer">
+    <p class="footer-info">
+      soundband may contain information that's unsuitable for minors
+    </p>
+    <p class="credits">
+      <span class="credit">©</span>
+      2023 soundband
+    </p>
+  </footer>
+
+
+  <script src="scripts/preloader.js"></script>
+  <script type="module" src="scripts/album-data.js"></script>
+  <script type="module" src="scripts/index.js"></script>
+  <script src="scripts/anchors.js"></script>
+  <script src="scripts/index-effects.js"></script>
+</body>
+
+</html>

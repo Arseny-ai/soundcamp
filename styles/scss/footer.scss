@@ -1,0 +1,23 @@
+.footer {
+  margin-top: auto;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+
+  .footer-info {
+    font-size: 0.8rem;
+    color: #777;
+  }
+
+  .credits {
+    margin-left: auto;
+    font-size: 0.9rem;
+
+    .credit {
+      font-size: 1.5rem;
+      font-family: "Courier New", Courier, monospace;
+    }
+  }
+}

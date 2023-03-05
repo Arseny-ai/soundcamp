@@ -1,0 +1,19 @@
+body {
+  background-color: #141414;
+  color: #ddd;
+  width: 100%;
+}
+
+%link-hover:hover {
+  color: #ffcc00;
+}
+
+.hr {
+  height: 1px;
+  background-color: #ffffff0d;
+  border: none;
+}
+
+div[data-href] {
+  cursor: pointer;
+}
