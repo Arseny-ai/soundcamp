@@ -113,10 +113,9 @@ tracks.forEach((track, index) => {
       let progressWidth = getComputedStyle(progress).getPropertyValue("width");
       progressWidth = +progressWidth.slice(0, progressWidth.length - 2);
 
-
       if (time != track.querySelector(".track-time").innerHTML) {
         track.querySelector(".track-time").innerHTML = time;
-        progress.style.width = `${audio.currentTime / audio.duration * 100}%`
+        progress.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
       }
 
       if (albums[albumIndex].tracks[index].isPlaying)
@@ -136,5 +135,18 @@ tracks.forEach((track, index) => {
 // TRACK PLAY
 
 // TRACK PLAYLIST PLAY BUTTON
-
+// later
 // TRACK PLAYLIST PLAY BUTTON
+
+const tracksInfos = document.querySelectorAll(".track .track-info .container");
+
+const tracksWidths = [];
+tracksInfos.forEach((trackInfo) => {
+  let width = getComputedStyle(trackInfo).width;
+  tracksWidths.push(+width.slice(0, width.length - 2));
+});
+const maxWidth = Math.max(...tracksWidths);
+
+tracksInfos.forEach((trackInfo) => {
+  trackInfo.style.width = `${maxWidth}px`;
+});

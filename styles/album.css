@@ -340,7 +340,6 @@ main {
   display: flex;
   padding: 0 0.5rem;
   flex-direction: column;
-  width: 12rem;
   font-size: 0.8rem;
 }
 .track-list .track .track-info .container .song-name {
