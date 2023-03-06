@@ -1,7 +1,7 @@
 export const albums = [
   {
     title: "Warm Blanket And Cocoa",
-    src: "warm-blanket-and-cocoa.png",
+    src: "warm-blanket-and-cocoa.jpg",
     description: `Perfect for cozy nights in. Features soothing and 
     mellow tunes that evoke a sense of comfort and warmth, just 
     like wrapping yourself up in a soft blanket and sipping on a 
@@ -34,7 +34,7 @@ export const albums = [
   },
   {
     title: "To Get Thoughts Together",
-    src: "to-get-thoughts-together.png",
+    src: "to-get-thoughts-together.jpg",
     description: `Carefully curated to help you clear your mind, 
     relax, and focus. This playlist features a selection of calming 
     and soothing tracks. Each song has been chosen to 
@@ -67,7 +67,7 @@ export const albums = [
   },
   {
     title: "Reading Fantasy",
-    src: "reading-fantasy.png",
+    src: "reading-fantasy.jpg",
     description: `Designed to transport you to other worlds while you delve into your favorite fantasy novels. Whether you're reading about dragons, wizards, or epic battles, it will provide the perfect soundtrack to help you lose yourself in the pages of your book. So sit back, relax, and let the music carry you away on your next reading adventure.`,
     tracks: [
       {
@@ -95,7 +95,7 @@ export const albums = [
   },
   {
     title: "Board Games in Good Company",
-    src: "board-games-in-good-company.png",
+    src: "board-games-in-good-company.jpg",
     description: `Curated for those cozy evenings spent playing board games with friends and loved ones. This playlist features a selection of upbeat and lively tunes that will keep the energy going, as well as some more mellow tracks to set a relaxed and comfortable atmosphere.`,
     tracks: [
       {
