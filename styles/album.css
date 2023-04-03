@@ -213,7 +213,8 @@ main {
 }
 .playlist-row .image {
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 200px;
 }
 .playlist-row .container {
@@ -308,7 +309,8 @@ main {
 .track-list .track .box img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .track-list .track .box .button {
   position: absolute;
@@ -423,6 +425,4 @@ main {
   .row h1 {
     font-size: 2rem !important;
   }
-}
-
-/*# sourceMappingURL=album.css.map */
+}/*# sourceMappingURL=album.css.map */

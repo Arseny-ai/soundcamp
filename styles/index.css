@@ -293,7 +293,8 @@ div[data-href] {
 .main .playlists-container .playlists .playlists-card img {
   width: 100%;
   aspect-ratio: 1/1;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .main .playlists-container .playlists .playlists-card h3 {
   padding: 0.5rem 0;
@@ -339,6 +340,4 @@ div[data-href] {
     font-size: 0.8rem !important;
     width: 12rem !important;
   }
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
